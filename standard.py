@@ -23,7 +23,6 @@ def atmosphere(alt):
             j=k
         else:
             i=k
-    print(i)
     tgrad = gtab[i]
     tbase = ttab[i]
     deltah = h-htab[i]
